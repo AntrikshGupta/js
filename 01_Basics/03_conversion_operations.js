@@ -34,6 +34,65 @@ console.log(boolIsLoggedIn);
     0 -> false
     "" -> false
     "world" -> true
-    
+
 */
+
+// ____________________________________________OPERATIONS____________________________________________ //
+
+
+
+let value = 5
+let negValue = -value
+console.log(negValue);
+
+let str1= "Hello"
+let str2= "World"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log(1 + 1)
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 3);
+console.log(2 + 3 + "4");
+
+console.log( 3 + 4 * 5 % 6);
+
+console.log(3 + (4*5) % 6);
+console.log((3 + 4)* 5 % 6);
+
+console.log(true);
+console.log(+true);
+console.log(+"");
+
+
+let n1 , n2 , n3
+n1 = n2 = n3 = 9 + 7
+console.log(n1 , n2 , n3 , n1 + n2 + n3);
+
+
+let x = 5
+++x
+console.log(x);
+
+x++
+console.log(x);
+console.log(++x);
+console.log(x++);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
