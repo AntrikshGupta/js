@@ -41,3 +41,40 @@ console.log(OG_Avengers);
 console.log(obj);
 
 myFunc()
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//      Stack ( Used by Primitive data types)  , Heap (Used by Non Primitive Data Type)
+
+let myName = "antrikshgupta"
+
+anotherName= myName
+
+console.log(anotherName);
+
+anotherName = "lytspd"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne ={
+        mail : "user@google.com",
+        upi: "uaer@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.mail="antriksh@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
+
+
